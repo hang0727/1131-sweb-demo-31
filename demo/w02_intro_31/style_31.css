@@ -1,0 +1,10 @@
+body {
+  background-color: #d3c1ff;
+}
+.container {
+  background-color: #ffffff;
+  width: 80%;
+  margin: 30px auto;
+  border: 2px solid purple;
+  padding: 16px 30px 36px 30px;
+}
