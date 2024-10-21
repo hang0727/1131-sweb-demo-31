@@ -2,9 +2,57 @@ body {
     background-color: #9ad9ef;
 }
 
+.card {
+    background-color: #ffffff;
+    max-width: 300px;
+    border: 2px solid transparent;
+    margin: 32px auto;
+    padding: 24px 32px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+.card-1 {
+    border-color: rgba(255, 105, 166, 0.3);
+}
+
+.card-2 {
+    border-color: rgba(255, 246, 84, 0.3);
+}
+
 .icon {
     width: 50px;
     height: 50px;
-    background-color: #ff69a6;
     border-radius: 50%;
+    margin: 0 auto;
+}
+
+.card-1 .icon {
+    background-color: #ff69a6;
+}
+
+.card-2 .icon {
+    background-color: #fff654;
+}
+
+.btn {
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border-color: transparent;
+}
+
+.btn-1 {
+    color: #ff69a6;
+    background-color: rgba(255, 105, 166, 0.3);
+    border-color: rgba(255, 105, 166, 0.6);
+}
+
+.btn-2 {
+    color: #fff654;
+    background-color: rgba(255, 246, 84, 0.3);
+    border-color: rgba(255, 246, 84, 0.6);
 }
