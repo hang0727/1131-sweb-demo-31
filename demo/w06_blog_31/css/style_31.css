@@ -78,3 +78,10 @@ body {
     color: var(--gery-dark);
     letter-spacing: 1px;
 }
+
+@media screen and (min-width: 550px) {
+    .blogs .blogs-center {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+    
