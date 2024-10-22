@@ -85,3 +85,26 @@ body {
     }
 }
     
+@media screen and (min-width: 800px) {
+    .blogs .blogs-center {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .blogs .blogs-center {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .blogs .blogs-center {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .blogs .blogs-center {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
