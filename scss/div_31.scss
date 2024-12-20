@@ -91,5 +91,20 @@
 
     footer {
         background-color: rgba(187, 127, 127);
+        grid-area: footer;
+    }
+}
+
+@media (max-width: 550px) {
+    .div_container {
+        grid-template-areas: 
+            "logo"
+            "header"
+            "article"
+            "nav"
+            "aside"
+            "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
     }
 }
